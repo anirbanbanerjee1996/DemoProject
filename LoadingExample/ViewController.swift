@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let gradient = SkeletonGradient(baseColor: .alizarin)
+        let gradient = SkeletonGradient(baseColor: .silver)
         let animation = SkeletonAnimationBuilder().makeSlidingAnimation(withDirection: .leftRight)
         view.showAnimatedGradientSkeleton(usingGradient: gradient, animation: animation)
         getSomething { [weak self] items in
@@ -86,7 +86,6 @@ extension ViewController: SkeletonTableViewDataSource {
         let item = items[indexPath.row]
         cell.customTitle?.text = item.title
         cell.customDescription?.text = item.description
-        cell.customImageView?.image = item.image
         return cell
     }
 }
