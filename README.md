@@ -7,7 +7,7 @@
 * Git  2.20.1 (Apple Git-117)
 
 ## Build the iOS App
-If you want to install this project in your machine , just download it and open the VoiceRecordingApp.xcodeproj file in Xcode and run it .
+If you want to install this project in your machine , just download it and open the .xcodeproj file in Xcode and run it .
 
 # Release numbering rules
 open xcode - click on project name - goto general menu - in Identity section - there are version number and build number.
